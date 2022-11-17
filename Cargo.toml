@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "plugins/cron",
+    "plugins/echo",
+    "plugins/http_stat",
+]

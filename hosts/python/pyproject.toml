@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "extism-automator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "BSD-Clause-3"
+readme = "README.md"
+packages = [{include = "extism_automator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+extism = "^0.0.1rc6"
+dataclasses-json = "^0.5.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

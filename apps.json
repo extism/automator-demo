@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "id": "hello-world-1",
+            "trigger": {
+                "id": "http_stat#check",
+                "args": {
+                    "url": "https://extism.org"
+                }
+            },
+            "filters": [],
+            "action": "echo#print_to_stdout"
+        }
+    ]
+}
